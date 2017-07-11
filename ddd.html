@@ -1,0 +1,138 @@
+<!doctype html>
+<meta charset="UTF-8">
+<style>	
+*{text-decoration:none;}
+#head{width:80.15%;margin:0 auto;}
+	.main3D{
+		display:flex;
+		flex-direction:row;
+		margin:56px 0;
+		display:hidden;								padding-left:0px;
+		text-align:center;
+		width:100%;
+		min-height:265px;
+	}
+	.main3D li{
+		width:220px;
+		height:220px;
+		margin:20px;
+		display:inline-block;
+		perspective:800px;
+	}
+	.all{
+		position:relative;
+		width:100%;
+		height:100%;
+	}
+	.outer{
+		transform:translateY(-98px) translateX(10px) rotateX(-97deg);
+		width:100%;
+		height:100%;
+		text-align:center;
+		transform-style:preserve-3d;
+		transition:all 0.2s linear 0s;
+	}
+	.tupian1{
+		position:absolute;
+		transform:rotateX(90deg);
+		transform-origin:center top;
+		width:87%;
+		height:89%;			
+		border-radius:50%;
+		box-shadow:0 0 0 16px rgba(0,0,0,0.3) inset;
+		background:url(./images/s1.jpg)no-repeat;
+	}
+	.tupian2{
+		transform:rotateX(180deg);
+		position:absolute;
+		width:100%;
+		height:100%;
+		border-radius:50%;
+		background:#282828;
+	}
+	.main3D li:hover .outer{
+		transform:rotateX(-172deg);
+		transition:all 0.2s linear 0s;
+	}
+	.tupian2 h4{
+		color:#FFF;
+		font-size:20px;
+		margin:0 15px;
+		padding-top:61px;
+		height:49px;
+	}
+	.tupian2 p{
+		color:#FFF;
+		padding:10px 5px;
+		margin:0 30px;
+		font-size:12px;
+		border-top:1px solid rgba(255,255,255,0.5);
+	}
+	.tupian2 p a{
+		display:block;
+		color:rgba(255,255,255,0.7);
+		font-weight:700;
+		font-size:17px;
+		padding-top:4px;
+	}
+	.tupian2 p a:hover{
+		text-decoration:underline;
+	}
+	</style>
+	<div id="head">
+							<ul class="main3D">
+							<li>
+								<div class="all">
+									<div class="outer">
+										<div class="tupian1"></div>
+										<div class="tupian2">
+											<h4>Chef</h4>
+											<p><i>Lorem ipsum</i>
+												<br/>
+												<a href="#">consectetur</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>	<li>
+								<div class="all">
+									<div class="outer">
+										<div class="tupian1"></div>
+										<div class="tupian2">
+											<h4>Chef</h4>
+											<p><i>Lorem ipsum</i>
+												<br/>
+												<a href="#">consectetur</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>	<li>
+								<div class="all">
+									<div class="outer">
+										<div class="tupian1"></div>
+										<div class="tupian2">
+											<h4>Chef</h4>
+											<p><i>Lorem ipsum</i>
+												<br/>
+												<a href="#">consectetur</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>	<li>
+								<div class="all">
+									<div class="outer">
+										<div class="tupian1"></div>
+										<div class="tupian2">
+											<h4>Chef</h4>
+											<p><i>Lorem ipsum</i>
+												<br/>
+												<a href="#">consectetur</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							</ul>
+							</div>
